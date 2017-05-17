@@ -1,0 +1,61 @@
+<!DOCTYPE html><!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Ultimatum</title>
+
+  <link rel="stylesheet" href="css/jquery-ui.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+  <script type="text/javascript" src="js/scriptsDespeito.js"></script>
+
+</head>
+
+<body>
+  <div class="modal ui-widget ui-corner-all">
+    <p class="header">
+      <label for="lance">Lance:</label>
+      <input type="text" id="lance" readonly style="border:0; color:#f6931f; font-weight:bold;">
+    </p>
+    <p class="info">
+      <label class="L1" for="amount">Divisão:</label>
+      <label class="L2" for="amount">Divisão Proposta:</label>
+      <input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold;">
+    </p>
+
+    <div class="slider" id="slider"> </div>
+
+    <p class="moneys">
+      <label for="amount">O seu Dinheiro:</label>
+      <input type="text" id="money" readonly style="border:0; color:#f6931f; font-weight:bold;">
+    </p>
+
+    <button class=" but ui-button ui-widget ui-corner-all" type="button" id="submit">Propôr</button>
+    <div class="secondSet">
+      <button class="yes ui-button ui-widget ui-corner-all" type="button" id="accept">Aceitar</button>
+      <button class="no ui-button ui-widget ui-corner-all" type="button" id="deny">Não Aceitar</button>
+    </div>
+
+  </div>
+
+    <div class="end ui-widget ui-corner-all">
+    <h1 style="text-align:center">Fim</h1>
+  </div>
+
+  <div class="modalF end ui-widget ui-corner-all">
+    <h3>Resultados:</h3>
+    <table class="results">
+      <th>Lances </th>
+      <th>Divisão </th>
+      <th>Dinheiro ganho este Lance </th>
+      <th>Dinheiro no final do Lance </th>
+
+    </table>
+  </div>
+
+</body>
+
+</html>
